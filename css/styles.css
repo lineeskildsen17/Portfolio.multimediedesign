@@ -7213,16 +7213,29 @@ img {
   /* Højden skal tilpasse sig */ }
 
 .navbar-brand {
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: "Bell MT", cursive; }
 
 .forsidetekst {
-  font-size: 80px; }
+  font-size: 85px;
+  font-family: "Bell MT", cursive; }
 
-.imagesogtekst {
-  background-image: url("../images/Forsidebillede.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px; }
+.text1 {
+  font-size: 80px;
+  font-family: "Bell MT", cursive; }
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white; }
+
+.centered {
+  font-size: 50px;
+  font-family: "Bell MT", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
